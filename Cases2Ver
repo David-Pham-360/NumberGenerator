@@ -1,0 +1,213 @@
+def generate_switch_case(num_cases):
+    code = ""
+    for i in range(num_cases, num_cases + 100):
+        code += f"    {'elif' if i > 1 else 'if'} number == {i}:\n"
+        code += f"        print({'Odd' if i % 2 != 0 else 'Even'})\n"
+    return code
+
+num_cases = 10000000  # Change this value to generate code for a different number of cases
+generated_code = generate_switch_case(num_cases)
+print(generated_code)
+
+--------------
+
+elif number == 10000000:
+        print(Even)
+    elif number == 10000001:
+        print(Odd)
+    elif number == 10000002:
+        print(Even)
+    elif number == 10000003:
+        print(Odd)
+    elif number == 10000004:
+        print(Even)
+    elif number == 10000005:
+        print(Odd)
+    elif number == 10000006:
+        print(Even)
+    elif number == 10000007:
+        print(Odd)
+    elif number == 10000008:
+        print(Even)
+    elif number == 10000009:
+        print(Odd)
+    elif number == 10000010:
+        print(Even)
+    elif number == 10000011:
+        print(Odd)
+    elif number == 10000012:
+        print(Even)
+    elif number == 10000013:
+        print(Odd)
+    elif number == 10000014:
+        print(Even)
+    elif number == 10000015:
+        print(Odd)
+    elif number == 10000016:
+        print(Even)
+    elif number == 10000017:
+        print(Odd)
+    elif number == 10000018:
+        print(Even)
+    elif number == 10000019:
+        print(Odd)
+    elif number == 10000020:
+        print(Even)
+    elif number == 10000021:
+        print(Odd)
+    elif number == 10000022:
+        print(Even)
+    elif number == 10000023:
+        print(Odd)
+    elif number == 10000024:
+        print(Even)
+    elif number == 10000025:
+        print(Odd)
+    elif number == 10000026:
+        print(Even)
+    elif number == 10000027:
+        print(Odd)
+    elif number == 10000028:
+        print(Even)
+    elif number == 10000029:
+        print(Odd)
+    elif number == 10000030:
+        print(Even)
+    elif number == 10000031:
+        print(Odd)
+    elif number == 10000032:
+        print(Even)
+    elif number == 10000033:
+        print(Odd)
+    elif number == 10000034:
+        print(Even)
+    elif number == 10000035:
+        print(Odd)
+    elif number == 10000036:
+        print(Even)
+    elif number == 10000037:
+        print(Odd)
+    elif number == 10000038:
+        print(Even)
+    elif number == 10000039:
+        print(Odd)
+    elif number == 10000040:
+        print(Even)
+    elif number == 10000041:
+        print(Odd)
+    elif number == 10000042:
+        print(Even)
+    elif number == 10000043:
+        print(Odd)
+    elif number == 10000044:
+        print(Even)
+    elif number == 10000045:
+        print(Odd)
+    elif number == 10000046:
+        print(Even)
+    elif number == 10000047:
+        print(Odd)
+    elif number == 10000048:
+        print(Even)
+    elif number == 10000049:
+        print(Odd)
+    elif number == 10000050:
+        print(Even)
+    elif number == 10000051:
+        print(Odd)
+    elif number == 10000052:
+        print(Even)
+    elif number == 10000053:
+        print(Odd)
+    elif number == 10000054:
+        print(Even)
+    elif number == 10000055:
+        print(Odd)
+    elif number == 10000056:
+        print(Even)
+    elif number == 10000057:
+        print(Odd)
+    elif number == 10000058:
+        print(Even)
+    elif number == 10000059:
+        print(Odd)
+    elif number == 10000060:
+        print(Even)
+    elif number == 10000061:
+        print(Odd)
+    elif number == 10000062:
+        print(Even)
+    elif number == 10000063:
+        print(Odd)
+    elif number == 10000064:
+        print(Even)
+    elif number == 10000065:
+        print(Odd)
+    elif number == 10000066:
+        print(Even)
+    elif number == 10000067:
+        print(Odd)
+    elif number == 10000068:
+        print(Even)
+    elif number == 10000069:
+        print(Odd)
+    elif number == 10000070:
+        print(Even)
+    elif number == 10000071:
+        print(Odd)
+    elif number == 10000072:
+        print(Even)
+    elif number == 10000073:
+        print(Odd)
+    elif number == 10000074:
+        print(Even)
+    elif number == 10000075:
+        print(Odd)
+    elif number == 10000076:
+        print(Even)
+    elif number == 10000077:
+        print(Odd)
+    elif number == 10000078:
+        print(Even)
+    elif number == 10000079:
+        print(Odd)
+    elif number == 10000080:
+        print(Even)
+    elif number == 10000081:
+        print(Odd)
+    elif number == 10000082:
+        print(Even)
+    elif number == 10000083:
+        print(Odd)
+    elif number == 10000084:
+        print(Even)
+    elif number == 10000085:
+        print(Odd)
+    elif number == 10000086:
+        print(Even)
+    elif number == 10000087:
+        print(Odd)
+    elif number == 10000088:
+        print(Even)
+    elif number == 10000089:
+        print(Odd)
+    elif number == 10000090:
+        print(Even)
+    elif number == 10000091:
+        print(Odd)
+    elif number == 10000092:
+        print(Even)
+    elif number == 10000093:
+        print(Odd)
+    elif number == 10000094:
+        print(Even)
+    elif number == 10000095:
+        print(Odd)
+    elif number == 10000096:
+        print(Even)
+    elif number == 10000097:
+        print(Odd)
+    elif number == 10000098:
+        print(Even)
+    elif number == 10000099:
+        print(Odd)
